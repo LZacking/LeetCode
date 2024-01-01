@@ -71,6 +71,18 @@
 Java 代码：
 
 ```java
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         // 判断链表是否为空或者只有一个节点，无法形成环
